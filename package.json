@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
-  "type": "module",
   "version": "1.0.0",
+  "type": "module",
   "description": "[![Actions Status](https://github.com/SkripnikovOV/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SkripnikovOV/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/SkripnikovOV/frontend-project-44.git"
   },
-  "author": "",
+  "author": "SkripnikovOV",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SkripnikovOV/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/SkripnikovOV/frontend-project-44#readme"
+  "homepage": "https://github.com/SkripnikovOV/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "code": "bin/brain-games.js"
+  },
+  "devDependencies": {}
 }
