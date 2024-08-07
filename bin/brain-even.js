@@ -1,3 +1,5 @@
-import playEvenGame from '../src/even-game.js';
+#!/usr/bin/env node
 
-playEvenGame();
+import startGame from '../src/games/even-game.js';
+
+startGame();
