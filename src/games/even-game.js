@@ -7,7 +7,7 @@ const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)
 const isEven = (num) => num % 2 === 0;
 
 const getQuestionAndAnswer = () => {
-  const number = getRandomNumber(1, 100);
+  const number = getRandomNumber(1, 10);
   const question = `${number}`;
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return [question, correctAnswer];
