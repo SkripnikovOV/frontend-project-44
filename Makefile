@@ -35,4 +35,4 @@ format-check:
 	npx prettier --check .
 
 fix:
-	npx eslint --fix
+	npx eslint . --fix
